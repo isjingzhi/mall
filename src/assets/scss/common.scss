@@ -1,0 +1,31 @@
+@import './setting.scss';
+@import './mixin.scss';
+@import './normalize.scss';
+@import './reset.scss';
+
+html,
+body,
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: $white;
+  // color: black;
+}
+
+#app>div {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  background-color: $transparent;
+  border: 0;
+}
+
+button {
+  background-color: $transparent;
+  border: 0;
+}
